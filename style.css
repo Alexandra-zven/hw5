@@ -1,0 +1,66 @@
+body{
+    background-image: url("/img/bg-new.png");
+    background-size: 100%;
+    color: white;
+}
+.header{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: "Courier";
+    font-size: 25px;
+}
+.main{
+    margin-left: 150px;
+    display: block;
+    margin-top: 60px;
+    height: 500px;
+    overflow: hidden;
+}
+.main div{
+    text-transform: uppercase;
+}
+.main img{
+    height: 600px;
+    position: relative;
+    left: 750px;
+    bottom: 235px;
+}
+.main button{
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 50px;
+    width: 180px;
+    border-color: white;
+    text-transform: uppercase;
+}
+.text{
+    font-weight: bold;
+    font-family: Courier;
+    font-size: 25px;
+    line-height: 0.1;
+}
+.testing{
+    font-family: Arial Narrow;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.footer{
+    background-color: orange;
+    display: flex;
+    height: 300px;
+    margin: 0px -8px -8px -8px;
+    align-items: center;
+    justify-content: center;
+}
+.footer div{
+    text-align: center;
+    width: 15%;
+}
